@@ -1,0 +1,14 @@
+dist/
+.temp/
+.rn_temp/
+node_modules/
+.idea
+.DS_Store
+package-lock.json
+dist-*
+/output
+# project.config.json
+wap-app-pro.zip
+config-back/
+.husky/_/
+yarn-error.json
