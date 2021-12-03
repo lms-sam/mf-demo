@@ -1,0 +1,24 @@
+{
+  "name": "mf-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:lms-sam/mf-demo.git",
+  "author": "sam.li <liminshen15999@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "examples:install": "npm-run-all --serial install:*",
+    "examples:removeNodeModules": "npm-run-all --serial rm:*",
+    "install:vue2-base": "cd vue2-base && yarn install",
+    "install:vue2-project": "cd vue2-project && yarn install",
+    "install:react17-base": "cd react17-base && yarn install",
+    "install:react17-project": "cd react17-project && yarn install",
+    "rm:vue2-base": "cd vue2-base && rm -rf node_modules",
+    "rm:vue2-project": "cd vue2-project && rm -rf node_modules",
+    "rm:react17-base": "cd react17-base && rm -rf node_modules",
+    "rm:react17-project": "cd react17-project && rm -rf node_modules"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "webpack": "^5.64.4"
+  }
+}

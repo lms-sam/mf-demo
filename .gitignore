@@ -11,4 +11,4 @@ dist-*
 wap-app-pro.zip
 config-back/
 .husky/_/
-yarn-error.json
+yarn-error.*
